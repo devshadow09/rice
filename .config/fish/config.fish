@@ -3,3 +3,5 @@ if status is-interactive
 end
 
 fish_add_path /home/jaiyesh/.spicetify
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

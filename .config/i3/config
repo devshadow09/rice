@@ -70,7 +70,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -222,7 +222,7 @@ bindsym $mod+r mode "resize"
 #}
 
 bindsym $mod+shift+x exec i3lock --color "$bg-color"
-bindsym $mod+shift+z exec ~/commandcenter.sh
+bindsym $mod+shift+z exec /home/jaiyesh/commandcenter.sh
 for_window [class = "Pavucontrol"] floating enable
 assign [class="LibreWolf"] $ws1
 assign [class="Spotify"] $ws4
@@ -234,7 +234,8 @@ exec_always picom --no-fading-openclose
 exec flameshot
 exec copyq
 for_window [class = "copyq"] floating enable
-exec_always feh --bg-scale /home/jaiyesh/wallpaper.jpg
-exec_always --no-startup-id $HOME/.config/i3/launch.sh
+exec_always feh --bg-scale /home/jaiyesh/Desktop/wallpaper2.png
+exec_always --no-startup-id $HOME/dotfiles/.config/i3/launch.sh
 exec_always conky -c .conkyrc
+bindsym $mod+shift+s exec flameshot gui
 exec --no-startup-id lxpolkit
