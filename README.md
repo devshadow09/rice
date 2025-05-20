@@ -14,3 +14,4 @@ dotfiles backup
 ![wallpaper](https://github.com/user-attachments/assets/fec502fb-2364-4bec-b170-3c40eba04c6d)
 
 wallpaper
+![wallpaper2](https://github.com/user-attachments/assets/a5e2d77f-5422-4260-984f-67fa7b4d279b)
